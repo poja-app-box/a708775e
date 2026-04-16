@@ -147,6 +147,7 @@ dependencies {
     testImplementation 'org.testcontainers:testcontainers-junit-jupiter:2.0.2'
     testImplementation 'org.junit-pioneer:junit-pioneer:2.2.0'
 
+implementation 'software.amazon.awssdk:cloudformation:2.21.40'
 
 
 }
