@@ -21,7 +21,7 @@ public class UploadRequestedService implements Consumer<UploadRequested> {
   private final BucketComponent ownedBucket;
 
   private static final String NON_OWNED_BUCKET_NAME =
-      "prod-bucket-poja-idp-api-bucket-cxboigrytphi\n";
+      "prod-bucket-poja-idp-api-bucket-cxboigrytphi";
 
   @Override
   public void accept(UploadRequested event) {
